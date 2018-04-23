@@ -1,0 +1,25 @@
+
+ [
+      {
+        "id": 1,
+        "name": "Breakfast Taco",
+        "picture": "./assets/breakfasttaco.png"
+      },
+      {
+        "id": 2,
+        "name": "Egg Whites and Chicken Sausage",
+        "picture": "./assets/eggwhites.png"
+      },
+      {
+        "id": 3,
+        "name": "Mongolian Beef",
+        "picture": "./assets/mongolianbeef.png"
+      },
+      {
+        "id": 4,
+        "name": "Flank Steak",
+        "picture": "./assets/flanksteak.png"
+      }      
+    ]
+  
+  
