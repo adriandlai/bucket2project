@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../App.css';
 
 class Paleo extends Component {
 
@@ -11,10 +12,10 @@ class Paleo extends Component {
     render() {
         const isLoaded = this.props.isLoaded
             return (
-                <div>
+                <div className = "menu">
                 <h1>This is Paleo</h1>     
                 { isLoaded 
-                ? (<div> 
+                ? (<div className = "menu_items"> 
                             {this.props.items.map((item, index) => {
                              return (
                                 <div id ={index}>

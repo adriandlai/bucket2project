@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../App.css';
 
 class Vegetarian extends Component{
 
@@ -13,10 +14,10 @@ class Vegetarian extends Component{
 
 
             return (
-                <div>
+                <div className = "menu">
                 <h1>This is vegetarian</h1>
                 { isLoaded 
-                ? (<div> 
+                ? (<div className = "menu_items"> 
                             {this.props.items.map((item, index) => {
                              return (
                                 <div id ={index}>

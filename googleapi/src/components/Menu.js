@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Vegetarian from './Vegetarian.js'
 import Paleo from './Paleo.js'
 import Other from './Other.js'
+import '../App.css';
 
 
 class Menu extends Component{

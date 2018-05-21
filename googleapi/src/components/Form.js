@@ -17,7 +17,7 @@ state = {
         const formData = new FormData(this.refs.form)
         console.log('formData', formData)
         const location = formData.get('location')
-        console.log('locatino', location)
+        console.log('location', location)
 
 
         event.preventDefault();
