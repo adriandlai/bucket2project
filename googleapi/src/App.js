@@ -12,10 +12,12 @@ class App extends Component {
         <div className="App">
             <div className = "holder"></div>
             <header className="App-header">
-              <img src="./assets/final.png" className="App-logo" alt="logo" />
+              <div className = "image">
+                <img src="./assets/final.png" className="App-logo" alt="logo" />
+              </div> 
               <h1 className="App-title">Welcome to BizEatz</h1>
-              <Form/> 
             </header>
+            <Form/>
         </div>  
         
     )

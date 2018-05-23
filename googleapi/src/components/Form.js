@@ -61,7 +61,7 @@ state = {
     render() {
         const isLoaded = this.state.isLoaded
         return (
-            <div>
+            <div className = "selection">
             <form onSubmit={this.onSubmit} ref="form">
                 <Geosuggest onChange={(value) => console.log('change', value)}
                     onBlur={(value) => console.log('blur', value)}
