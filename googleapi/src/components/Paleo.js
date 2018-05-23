@@ -13,7 +13,7 @@ class Paleo extends Component {
         const isLoaded = this.props.isLoaded
             return (
                 <div className = "menu">
-                <h1>This is Paleo</h1>     
+                <h1 className="menu_title">Paleo Menu</h1>     
                 { isLoaded 
                 ? (<div className = "menu_items"> 
                             {this.props.items.map((item, index) => {

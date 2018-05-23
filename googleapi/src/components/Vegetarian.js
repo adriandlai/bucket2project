@@ -15,7 +15,7 @@ class Vegetarian extends Component{
 
             return (
                 <div className = "menu">
-                <h1>This is vegetarian</h1>
+                <h1 className= "menu_title">Vegetarian Menu</h1>
                 { isLoaded 
                 ? (<div className = "menu_items"> 
                             {this.props.items.map((item, index) => {

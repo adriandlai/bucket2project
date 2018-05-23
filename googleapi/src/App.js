@@ -10,12 +10,14 @@ class App extends Component {
     return (
       
         <div className="App">
-            <div className = "holder"></div>
+            <div className = "holder">
+              <img src="./assets/traveler.jpg"/>
+            </div>
             <header className="App-header">
               <div className = "image">
                 <img src="./assets/final.png" className="App-logo" alt="logo" />
               </div> 
-              <h1 className="App-title">Welcome to BizEatz</h1>
+              <h1 className="App-title">BizEatz is helping business travelers eat healthy</h1>
             </header>
             <Form/>
         </div>  
